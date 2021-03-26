@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-sm-8">
+        <button type="button" class="btn btn-default" ng-click="addAnnotation('Anno')">
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>Star</button>
+    </div>
+    <div class="col-sm-4">
+        <div ng-repeat="annotation in chartObject.annotations">
+            <h4 class="label label-danger">{{annotation.labels[0].options.text}}</h4></br>
+        </div>
+    </div>
+</div>

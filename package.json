@@ -1,0 +1,25 @@
+{
+  "name": "highcharts",
+  "version": "1.0.0",
+  "description": "## Dependencies",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-logger": "^0.0.3",
+    "ng-dialog": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eden2016/highcharts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eden2016/highcharts/issues"
+  },
+  "homepage": "https://github.com/Eden2016/highcharts#readme"
+}
